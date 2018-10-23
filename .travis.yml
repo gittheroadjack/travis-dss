@@ -6,4 +6,4 @@ python:
 
 script:
 
-- python hola.py
+- python hello.py
