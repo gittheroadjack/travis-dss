@@ -11,3 +11,15 @@ script:
 
 - python hello.py
 - pytest -v -rs hello_test.py
+
+notifications:
+
+email:
+
+recipients:
+
+- ale_romero97@hotmail.com
+
+on_success: never
+
+on_failure: always
